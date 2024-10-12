@@ -1,0 +1,49 @@
+/* Header */
+.header {
+  background-color: violet;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  background-color: orange;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Square */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+/* Windows logo */
+.windows-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 200px;
+  height: 200px;
+  gap: 10px;
+  border : black 1px solid;
+}
+
+
+.window-1 { background-color: blue; }
+.window-2 { background-color: green; }
+.window-3 { background-color: red; }
+.window-4 { background-color: yellow; }
+
+
