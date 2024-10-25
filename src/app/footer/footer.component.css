@@ -1,0 +1,12 @@
+/* Footer */
+.footer {
+  background-color: orange;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

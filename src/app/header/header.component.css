@@ -1,0 +1,10 @@
+/* Header */
+.header {
+  background-color: violet;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
