@@ -7,21 +7,13 @@
   The logo should be interactive, when you hover over the logo,
   the logo should change its color according of the background color.
 -->
-<div #pageContainer class="page-container">
-
+  <div  [ngClass]="colorBackground">
   <!-- Header provenant d'un component-->
   <app-header></app-header>
 
-  <div class="content">
-    <div class="square">
-      <div class="windows-logo">
-        <div class="window window-1" (click)="changeBackgroundColor('blue')"></div>
-        <div class="window window-2" (click)="changeBackgroundColor('green')"></div>
-        <div class="window window-3" (click)="changeBackgroundColor('red')"></div>
-        <div class="window window-4" (click)="changeBackgroundColor('yellow')"></div>
-      </div>
-    </div>
-  </div>
+  <!-- Window provenant d'un component-->
+  <app-window (changeBackgroundColorEvent)=changeBackgroundColor($event)>
+  </app-window>
 
   <!-- Footer provenant d'un component-->
   <app-footer></app-footer>

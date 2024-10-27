@@ -1,6 +1,3 @@
-
-
-
 /* Square */
 .content {
   display: flex;
@@ -20,20 +17,7 @@
   border : black 1px solid;
 }
 
-.red {
-  background-color: red;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.green {
-  background-color: green;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-
+.window-1 { background-color: blue; }
+.window-2 { background-color: green; }
+.window-3 { background-color: red; }
+.window-4 { background-color: yellow; }
